@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6e0052/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛華嚴入如來德智不思議境界經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0303.xml
+    old_id: T10n0303
+hash: sha256:53c82a507cffcc9e45d6d62627ce0584a50cd874efe0831043c995f9bd206d13

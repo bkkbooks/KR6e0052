@@ -1,0 +1,76 @@
+canonical_identifier: bkk:krp/KR6e0052/v1
+canonical_location: https://kanripo.org/bkk/KR6e0052/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛華嚴入如來德智不思議境界經
+  identifiers:
+    alt_id:
+    - T10n0303
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0303.xml
+    old_id: T10n0303
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 聖
+  label: 聖
+  source_xml_id: wit5
+- short: 聖乙
+  label: 聖乙
+  source_xml_id: wit6
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0052_000.yaml, hash: 'sha256:53c82a507cffcc9e45d6d62627ce0584a50cd874efe0831043c995f9bd206d13'}
+  - {seq: 1, filename: KR6e0052_001.yaml, hash: 'sha256:53ea38275a11a6a012fa4993cbc4c58e7f446ab0d4247a40f964959c010cf491'}
+  - {seq: 2, filename: KR6e0052_002.yaml, hash: 'sha256:63d99a733f54a9164b55e12378cc4cb78360c03193fe9de1bdd68e62c1be9669'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6e0052_001.markers.yaml, hash: 'sha256:d2b736c0d30ac9ec87256edfc21e284a66ffbc72b1e3ab7b557e28a19cd9737d'}
+  - {seq: 2, role: markers, filename: assets/KR6e0052_002.markers.yaml, hash: 'sha256:109c7260ef34b3f4a5339b8de46ef3edd36b5046aef7fd4e72ec891b674c7b43'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0052_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4541
+  label: '佛華嚴入如來德智不思議境界
+
+    經卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6e0052_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 5350
+  label: '佛華嚴入如來德智不思議境界
+
+    經卷下'
+  type: juan
+  level: 1
+hash: sha256:8f7b5f110267b6ff745be39f0e90bf1b1cf7f81f525b6fcecc3fb90218b08cf4
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

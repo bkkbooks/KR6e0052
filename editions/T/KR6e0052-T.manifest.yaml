@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6e0052/T/v1
+canonical_location: https://kanripo.org/bkk/KR6e0052/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛華嚴入如來德智不思議境界經
+  identifiers:
+    krp: KR6e0052
+    cbeta: T10n0303
+    cbeta_old_id: T10n0303
+    authorityid: CA0001060
+    json_key: T0303
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T10/T10n0303.xml
+    old_id: T10n0303
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0052_000-T.yaml, hash: 'sha256:53c82a507cffcc9e45d6d62627ce0584a50cd874efe0831043c995f9bd206d13'}
+  - {seq: 1, filename: KR6e0052_001-T.yaml, hash: 'sha256:a094ca509bb5a1db14ae5f91442a8c551a0f1c244a295100f99b9f08ed6539fe'}
+  - {seq: 2, filename: KR6e0052_002-T.yaml, hash: 'sha256:9672526977384ccbffd62b428495c78b1b97bacfa9000c592a9c8bbe04ff458a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6e0052_000-T.markers.yaml, hash: 'sha256:ed3da92d7faa793e956374c6be5f8e584b06157270e1a7157ff74f57c51d974b'}
+  - {seq: 1, role: markers, filename: assets/KR6e0052_001-T.markers.yaml, hash: 'sha256:08c0e0122140b6dfcbcc48eb7a2b686867c55a54e40b2017b3df238e08c27685'}
+  - {seq: 2, role: markers, filename: assets/KR6e0052_002-T.markers.yaml, hash: 'sha256:68245e54915cb0c3827011b5d677c7fcc93ab54b78de387fe2d108d86d450d09'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0052_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 4541
+  label: '佛華嚴入如來德智不思議境界
+
+    經卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6e0052_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 5350
+  label: '佛華嚴入如來德智不思議境界
+
+    經卷下'
+  type: juan
+  level: 1
+hash: sha256:7732f6540ed9013cd6390093105414300a305476a2d3ea39690831138b444a3a
